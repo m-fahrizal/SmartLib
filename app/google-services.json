@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1004141815758",
+    "project_id": "smartlibfix",
+    "storage_bucket": "smartlibfix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004141815758:android:0f8acae70b35ee5212ed9f",
+        "android_client_info": {
+          "package_name": "com.example.smartlib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004141815758-vshivi1ft9krrnmgjh4rv06ucn39nqov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE_-Wnza5Idv4oh0r01m9dDqNW3s2sDZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004141815758-vshivi1ft9krrnmgjh4rv06ucn39nqov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

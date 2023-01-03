@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JournalAbstract1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/column2"
+        android:backgroundTint="@color/ColorWhiteYellow"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back_bookdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/iconback" />
+
+        <TextView
+            android:id="@+id/edt_book"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/column2"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingLeft="80dp"
+            android:paddingTop="15dp"
+            android:text="Journal Abstract"
+            android:textColor="@color/ColorRed_1"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/ColorRed_1"
+            android:text="ABSTRACT"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppinsregular"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Materials/goods handling industry is fundamental for companies to ensure the
+smooth running of their warehouses. Efficiency and organization within every aspect of the
+business is essential in order to gain a competitive advantage. The purpose of this research is
+design and development of Kanban of inventory storage and delivery system. Application aims
+to facilitate inventory stock checks to be more efficient and effective. Users easily input
+finished goods from production department, warehouse, customer, and also suppliers. Master
+data designed as complete as possible to be prepared applications used in a variety of process
+logistic warehouse variations. The author uses Java programming language to develop the
+application, which is used for building Java Web applications, while the database used is
+MySQL. System development methodology that I use is the Waterfall methodology. Waterfall
+methodology has several stages of the Analysis, System Design, Implementation, Integration,
+Operation and Maintenance. In the process of collecting data the author uses the method of
+observation, interviews, and literature."
+            android:textColor="@color/ColorBlack"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>
